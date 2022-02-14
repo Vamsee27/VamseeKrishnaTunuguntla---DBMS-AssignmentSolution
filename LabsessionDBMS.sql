@@ -167,7 +167,7 @@ left(CUS_NAME,1) = 'A' or right(CUS_NAME,1) = 'A';
 /* Kindly place below procedure in Stored procedure and apply the changes*/ 
 
 drop procedure if exists Ecommerce.rateSupplier;
-CREATE PROCEDURE `rateSupplier`(SUPP_ID int)
+CREATE PROCEDURE rateSupplier (SUPP_ID int)
 BEGIN
 declare v_supp_id int default 0;
 set v_supp_id = SUPP_ID;
